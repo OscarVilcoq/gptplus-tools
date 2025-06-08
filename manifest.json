@@ -22,12 +22,11 @@
         {
             "matches": ["https://chatgpt.com/*"],
             "css": [
-                "src/features/**/*.css"
+                "src/styles.css"
             ],
             "js": [
-                "public/libs/*.js",
-                "src/features/**/*.js",
-                "src/utils/**/*.js"
+                "public/libs/jquery-3.7.1.min.js",
+                "src/index.js"
             ]
         }
     ]
