@@ -177,5 +177,3 @@ function loadFolders() {
         $folders.append($notListed);
     });
 }
-
-setInterval(checkAndInsertElements, 2000);

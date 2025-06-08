@@ -26,6 +26,10 @@
             ],
             "js": [
                 "public/libs/jquery-3.7.1.min.js",
+                "src/features/folders/folders.js",
+                "src/features/folders/folderModel.js",
+                "src/features/prompts/prompts.js",
+                "src/utils/utils.js",
                 "src/index.js"
             ]
         }
