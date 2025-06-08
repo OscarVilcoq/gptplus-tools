@@ -57,4 +57,4 @@ Développé par **Oscar VILCOQ**
 
 ## ⭐️ Soutenir le projet
 
-Si vous aimez l’extension, pensez à l’étoiler ⭐️ ce dépôt sur GitHub une fois publié !
+Si vous aimez l’extension, pensez à l’étoiler ⭐️ !
