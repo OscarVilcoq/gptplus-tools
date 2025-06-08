@@ -6,23 +6,29 @@
     "permissions": ["cookies", "storage", "scripting", "tabs"],
     "host_permissions": ["https://chatgpt.com/*"],
     "icons": {
-        "16": "img/icon16.png",
-        "48": "img/icon48.png",
-        "128": "img/icon128.png"
+        "16": "public/icons/icon16.png",
+        "48": "public/icons/icon48.png",
+        "128": "public/icons/icon128.png"
     },
     "action": {
-        "default_popup": "popup/popup.html",
+        "default_popup": "src/popup/popup.html",
         "default_icon": {
-            "16": "img/icon16.png",
-            "48": "img/icon48.png",
-            "128": "img/icon128.png"
+            "16": "public/icons/icon16.png",
+            "48": "public/icons/icon48.png",
+            "128": "public/icons/icon128.png"
         }
     },
     "content_scripts": [
         {
             "matches": ["https://chatgpt.com/*"],
-            "css": ["styles.css"],
-            "js": ["jquery.min.js", "content/utils.js", "content/models.js", "content/folders.js", "content/prompts.js"]
+            "css": [
+                "src/features/**/*.css"
+            ],
+            "js": [
+                "public/libs/*.js",
+                "src/features/**/*.js",
+                "src/utils/**/*.js"
+            ]
         }
     ]
 }
