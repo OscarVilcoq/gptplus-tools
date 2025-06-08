@@ -13,7 +13,7 @@ Elle s'intègre **directement dans l'interface de ChatGPT** pour une expérience
 - 💾 **Sauvegarde de prompts personnalisés** : Créez, stockez et réutilisez vos prompts préférés.
 
 - 🧠 **Prompt par défaut : Générateur de prompt**  
-  ➤ Un formulaire interactif vous guide (rôle, contexte, tâche, etc.) puis génère automatiquement un prompt structuré et ouvre un nouveau chat avec ChatGPT prêt à l’emploi.
+  ➤ Un formulaire interactif vous guide (rôle, contexte, tâche, etc.) puis génère automatiquement un prompt structuré à l'aide ChatGPT, vous n'avez plus qu'a le copier et le réutiliser.
 
 - 🚧 **Fonctionnalités à venir** : De nombreuses idées en développement, toutes gratuites et pensées pour améliorer l’usage de ChatGPT.
 
@@ -27,7 +27,6 @@ L’extension sera disponible directement sur le **[Chrome Web Store](https://ch
 ---
 
 ## 📷 Aperçu
-
 (Bientôt)
 
 ---
@@ -36,7 +35,6 @@ L’extension sera disponible directement sur le **[Chrome Web Store](https://ch
 
 - JavaScript / HTML / CSS
 - API Chrome Extension
-- Manipulation directe du DOM de ChatGPT pour une intégration immersive
 - Stockage local pour les données utilisateur
 
 ---
