@@ -1,0 +1,85 @@
+:root {
+    --margin-small: 5px;
+    --margin-medium: 10px;
+    --margin-large: 15px;
+    --margin-xl: 30px;
+    --margin-xxl: 50px;
+
+    --padding-small: 5px;
+    --padding-medium: 10px;
+    --padding-large: 15px;
+    --padding-xl: 30px;
+    --padding-xxl: 50px;
+}
+
+.folders {
+    margin-top: var(--margin-xl);
+    padding: 0 var(--padding-medium);
+}
+
+.folders > *:not(:last-child) {
+    margin-bottom: var(--margin-medium);
+}
+
+.folder-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--margin-large);
+    user-select: none;
+    cursor: pointer;
+}
+
+.folder .folder-header .folder-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.folder .folder-header .folder-extra {
+    height: 20px;
+}
+
+.delete-folder {
+    width: 20px;
+    height: 20px;
+}
+
+.folder-extra .delete-folder:hover {
+    color: red;
+    transition: all .3s ease;
+}
+
+.folder .folder-header .folder-name {
+    flex: 1;
+    text-align: start;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.folder.open .folder-header .folder-arrow {
+    transform: rotate(-180deg);
+}
+
+.folder-chats {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.folder.open .folder-chats {
+    max-height: fit-content;
+    scrollbar-color: var(--main-surface-tertiary) transparent;
+    overflow: visible;
+    overflow-x: hidden;
+    gap: var(--margin-small);
+}
+
+#history {
+    max-height: 0px;
+    overflow: hidden;
+}
+
+#history.open {
+    max-height: fit-content;
+    scrollbar-color: var(--main-surface-tertiary) transparent;
+    overflow: visible;
+}

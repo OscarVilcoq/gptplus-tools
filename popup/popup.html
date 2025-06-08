@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulaire Popup</title>
+        <link rel="stylesheet" href="./popup.css">
+    </head>
+    <body>
+        <h1>Générateur de prompt</h1>
+        <form id="promptForm">
+            <div class="group">
+                <label for="role">Rôle :</label>
+                <input type="text" id="role" name="role" placeholder="Ex: assistant créatif" />
+            </div>
+            
+            <div class="group">
+                <label for="context">Contexte :</label>
+                <textarea id="context" name="context" placeholder="Ex: aide à écrire une histoire"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="task">Objectif / Tâche :</label>
+                <textarea id="task" name="task" placeholder="Ex: proposer des idées originales"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="constraints">Contraintes :</label>
+                <textarea id="constraints" name="constraints" placeholder="Ex: éviter les clichés"></textarea>
+            </div>
+            
+            <div class="group">
+                <label for="musthave">Exigences :</label>
+                <textarea id="musthave" name="musthave" placeholder="Ex: inclure des détails précis"></textarea>
+            </div>
+
+            <div class="group">
+                <label for="style">Style / Ton :</label>
+                <input type="text" id="style" name="style" placeholder="Ex: formel, humoristique" />
+            </div>
+
+            <div class="group">
+                <label for="format">Format :</label>
+                <input type="text" id="format" name="format" placeholder="Ex: liste, paragraphe" />
+            </div>
+
+            <div class="group">
+                <label for="audience">Audience :</label>
+                <input type="text" id="audience" name="audience" placeholder="Ex: débutant, expert" />
+            </div>
+
+            <div class="group">
+                <label for="other">Autres informations spécifiques :</label>
+                <textarea id="other" name="other" placeholder="Autres précisions utiles"></textarea>
+            </div>
+
+            <button type="submit">Générer le prompt</button>
+        </form>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
